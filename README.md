@@ -10,13 +10,9 @@
 
 ## Routes
 | HTTP  | CRUD   | Example        |
-| ----- | -----  | -------------- |
 | GET   | READ   | Read profile   |
-| ----- | ------ | ---------------|
 | POST  | CREATE | Post a comment |
-| ----- | ------ |  --------------|
 | PUT   | UPDATE | Change password|
-| ----- | ------ | ---------------|
 |DELETE | DELETE | Delete a photo |
 
 ## Sequelize
