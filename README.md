@@ -27,3 +27,24 @@
 - run sequelize db: migrate
 - run sequelize db:migrate:undo (undoes the last migration)
 
+## Using Postgres
+
+- type in psql -U postgres -h localhost in terminal
+- type in your password
+- You are now connected into postgres
+
+## Functions of Postgres
+
+- \q quit sql
+- \l Lets you view all your db
+- \c "nameofdb" connects to db
+- \dt view the tables in th db that you are connected to
+- \d "example" look at the structure of the table
+- SELECT * FROM "table"; see all data from that table
+- DROP DATABASE "name" delete db
+
+### How to find somone in a table
+- by name = SELECT * FROM "example" WHERE name = 'Paul';
+- by ids = SELECT id, name FROM students;
+- delete from table =  DELETE FROM students WHERE name = 'Paul'; 'n ALTER TABLE
+  
